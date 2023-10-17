@@ -1,0 +1,98 @@
+
+
+/*media queries*/
+/*Tablet*/
+@media(min-width:361px){
+    .productos {
+        margin: 20px;
+    }
+    
+    .productos h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .producto {
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        display: inline-block;
+        width: 400px;
+    }
+    
+    .producto img {
+        background-image: url('/public/img/cafetera.jpg');
+        width: 70%;
+        height: auto;
+    }
+    
+    .precio {
+        font-size: 18px;
+        font-weight: bold;
+        color: #333;
+    }
+    
+    .descuento {
+        font-size: 16px;
+        color: #e74c3c;
+    }
+    
+    .nombre {
+        font-size: 16px;
+        color: #666;
+    }
+}
+
+
+
+/*Desktop*/
+
+@media (min-width:769px){
+    .home_header_mobile{
+        display:none;
+    }
+
+    .productos {
+        margin: 20px;
+    }
+    
+    .productos h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .producto {
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        display: inline-block;
+        width: 200px;
+    }
+    
+    .producto img {
+        background-image: url('/public/img/cafetera.jpg');
+        width: 100%;
+        height: auto;
+    }
+    
+    .precio {
+        font-size: 18px;
+        font-weight: bold;
+        color: #333;
+    }
+    
+    .descuento {
+        font-size: 16px;
+        color: #e74c3c;
+    }
+    
+    .nombre {
+        font-size: 16px;
+        color: #666;
+    }
+}
+
