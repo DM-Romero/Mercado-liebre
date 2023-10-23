@@ -1,19 +1,33 @@
 footer {
-    background-color: #efd400;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(20, 1, 1);
     padding: 20px;
     text-align: center;
 }
 
+.contacto{
+    padding: 20px;
+}
+
+footer section {
+    padding: 20px;
+}
+
 footer h3 {
-    font-size: 20px;
+    font-size: 16px;
+    margin: 2px;
 }
 
 footer p {
-    font-size: 16px;
+    font-size: 12px;
 }
 
 
 .copyright {
     margin-top: 20px;
+}
+
+footer i{
+    font-size: 2em;
+    margin-bottom: 10px;
 }
